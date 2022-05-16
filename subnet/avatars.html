@@ -70,11 +70,11 @@
         </style>
     </head>
     <body onload="generate()">  
-        <center><!-- yeah, I know.. sorry? -->
+        <center><!-- yeah, I know.. I'm sorry? -->
             <p>
                 <a href="https://news.ycombinator.com/item?id=30668137">Show HN: HN Avatars in 357 bytes</a> - <a href="https://news.ycombinator.com/user?id=tomxor">tomxor</a>
             </p>    
-            Append  the following code in the console on HN:
+            Append the following code in the console on HN:
             <pre><code>for(u of document.querySelectorAll('.hnuser'))for(u.prepend(c=document.createElement('canvas')),x=c.getContext('2d'),c.width=18,c.height=14,s=u.innerText,r=1,i=28+s.length;i--;i<28?r>>>29>X*X/3+Y/2&&x.fillRect(6+2*X,2*Y,2,2)&x.fillRect(6-2*X,2*Y,2,2):r+=s.charCodeAt(i-28,x.fillStyle='#'+(r>>8&0xFFFFFF).toString(16)))r^=r<<13,r^=r>>>17,r^=r<<5,X=i&3,Y=i>>2</pre></code>        
         </center>
         
